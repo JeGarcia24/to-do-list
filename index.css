@@ -1,0 +1,80 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%);
+  height: 100vh;
+  font-family: Verdana, Tahoma, sans-serif;
+  text-align: center;
+  display: flex;
+}
+.container{
+  margin: auto;
+  margin-top: 10px;
+}
+.fa-trash, .fa-check-square{
+  padding-left: 10px;
+  padding-right: 10px;
+  float: right;
+}
+
+#incompList, #compList{
+  text-align: start;
+  font-size: 25px;
+
+}
+#compList{
+  color: white;
+}
+#author{
+  font-size: 20px;    
+  text-align: end;
+  margin-right: 100px;
+}
+#quoteGenerator{
+  max-width: 800px;
+  height: auto;
+  margin: 20px auto;
+  font-size: 25px;
+  font-style: italic;
+  font-family: cursive, sans-serif;
+  color: white;
+
+}
+#inputArea{
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid black;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#dateAndTime{
+  font-size: 20px;
+  text-align: center;
+}
+#date{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media(max-width:500px){
+  #author{
+    font-size: 12px;    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #quoteGenerator, 
+  #incompList, 
+  #compList,
+  #inputArea,
+  #dateAndTime{
+    font-size: 15px;
+  }
+ 
+}
