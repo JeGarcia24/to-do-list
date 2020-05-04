@@ -30,11 +30,6 @@ body{
 #compList{
   color: white;
 }
-#author{
-  font-size: 20px;    
-  text-align: end;
-  margin-right: 100px;
-}
 #quoteGenerator{
   max-width: 800px;
   height: auto;
@@ -43,7 +38,14 @@ body{
   font-style: italic;
   font-family: cursive, sans-serif;
   color: white;
-
+}
+p{
+  margin: 0px;
+}
+#author{
+  font-size: 20px;    
+  text-align: end;
+  margin-right: 100px;
 }
 #inputArea{
   width: 80%;
